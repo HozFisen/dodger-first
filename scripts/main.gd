@@ -13,7 +13,7 @@ func game_over():
 
 func new_game():
 	score = 0
-	$Player.start($StartPosition.positiwadwsawdon)
+	$Player.start($StartPosition.position)
 	$StartTimer.start()
 
 func _on_score_timer_timeout() -> void:
